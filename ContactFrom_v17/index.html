@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V17</title>
+	<title>Contact us</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -25,19 +25,52 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+<!--=============================NEW ADDED========================================-->
+    <!--<style>
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}    
+
+        /* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+   </style>
+    
+<!--===================================NEW ADDED===================================================-->
 </head>
+    
 <body>
 
-
+    <!--===================================NEW ADDED===================================================-->
 	<div class="container-contact100">
-		<div class="wrap-contact100">
+        <!--===================================NEW ADDED===================================================-->
+        <!--<div class="modal-content">-->
+        <!--<span class="close">&times;</span>-->
+        <!--===================================NEW ADDED===================================================-->
+        
+        <div class="wrap-contact100">            
 			<form class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					Send A Message
+               	<span class="contact100-form-title">
+					Get in Touch
 				</span>
 
-				<label class="label-input100" for="first-name">Your name *</label>
+				<label class="label-input100" for="first-name">Name *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
 					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
 					<span class="focus-input100"></span>
@@ -47,15 +80,15 @@
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="email">your email address *</label>
+				<label class="label-input100" for="email">Email address *</label>
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<input id="email" class="input100" type="text" name="email" placeholder="example@email.com">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="phone">your phone number</label>
+				<label class="label-input100" for="phone">Contact number</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="+44 (0)70 00 001 234">
 					<span class="focus-input100"></span>
 				</div>
 
@@ -88,7 +121,7 @@
 						</span>
 
 						<span class="txt3">
-							+44 113 252 1120
+							+44 (0) 113 252 1120
 						</span>
 					</div>
 				</div>
@@ -110,7 +143,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	   <!--</div>-->
+    </div>
 
 
 
@@ -136,16 +170,39 @@
 	<script src="vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
+<!--==================================DISABLED GA==========================================-->
 	<script src="js/main.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>-->
+	<!-- <script>-->
+	  <!--window.dataLayer = window.dataLayer || [];-->
+	  <!--function gtag(){dataLayer.push(arguments);}-->
+	  <!--gtag('js', new Date());-->
 
-	  gtag('config', 'UA-23581568-13');
-	</script>
+	  <!--gtag('config', 'UA-23581568-13');-->
+	<!-- </script>-->
+    
+<!--===================================NEW ADDED===================================================-->
+    <!--<script>
+        // Get the modal
+        var container-contact100 = document.getElementById("myModal");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        container-contact100.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == container-contact100) {
+        container-contact100.style.display = "none";
+        }
+        }
+    </script>-->
+<!--===================================NEW ADDED===================================================-->
+    
 </body>
 </html>

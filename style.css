@@ -49,13 +49,13 @@ h5,
 h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #232d37;
+    color: #394141;
     line-height: 1.25;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    color: #51545f;
+    color: #636C6C;
     font-size: 14px;
     line-height: 2;
     font-weight: 400;
@@ -104,10 +104,10 @@ li {
 
 #preloader {
     overflow: hidden;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
     height: 100%;
     left: 0;
     position: fixed;
@@ -233,7 +233,7 @@ li {
     font-size: 18px;
     right: 5%;
     width: 40px;
-    background-color: #83c331;
+    background-color: #8FD974;
     color: #fff;
     text-align: center;
     height: 40px;
@@ -245,7 +245,7 @@ li {
 }
 
 #scrollUp:hover {
-    background-color: #61ba6d;
+    background-color: #4CA456;
 }
 
 .section-heading {
@@ -310,14 +310,14 @@ li {
     padding: 0 15px;
     width: 160px;
     height: 46px;
-    border-left: 2px solid #61ba6d;
-    border-right: 2px solid #83c331;
+    border-left: 2px solid #4CA456;
+    border-right: 2px solid #8FD974;
     box-sizing: border-box;
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 2px;
-    background-image: -webkit-linear-gradient(left, #61ba6d 0%, #83c331 100%), -webkit-linear-gradient(left, #61ba6d 0%, #83c331 100%);
-    background-image: linear-gradient(to right, #61ba6d 0%, #83c331 100%), linear-gradient(to right, #61ba6d 0%, #83c331 100%);
+    background-image: -webkit-linear-gradient(left, #4CA456 0%, #8FD974 100%), -webkit-linear-gradient(left, #4CA456 0%, #8FD974 100%);
+    background-image: linear-gradient(to right, #4CA456 0%, #8FD974 100%), linear-gradient(to right, #4CA456 0%, #8FD974 100%);
     -webkit-transition-duration: 1000ms;
     transition-duration: 1000ms;
     position: relative;
@@ -328,10 +328,10 @@ li {
     color: #fff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
     content: '';
     position: absolute;
     width: 100%;
@@ -408,7 +408,7 @@ li {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 25px;
     padding-left: 25px;
-    color: black;
+    color: #394141;
     font-size: 14px;
     font-weight: 500;
 	text-transform: uppercase;
@@ -521,6 +521,12 @@ li {
     }
 }
 
+/* NEW ADDED START On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                  .text {font-size: 11px}
+                }
+/* NEW ADDED END On smaller screens, decrease text size */
+
 /* Top Features Area CSS */
 
 .fancy-top-features-area {
@@ -534,14 +540,14 @@ li {
     z-index: 99;
     bottom: 50%;
     -webkit-transform: translateY(50%);
-    transform: translateY(10%);
+    transform: translateY(50%);
     left: 0;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
 }
 
 .single-top-feature {
-    padding: 40px;
+    padding: 45px;
     background-color: #fff;
     position: relative;
     z-index: 1;
@@ -549,9 +555,9 @@ li {
 
 .single-top-feature:after {
     width: 1px;
-    height: calc(100% - 40px);
+    height: calc(100% - 60px);
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 0;
     content: '';
     background-color: #e5e5e5;
@@ -624,10 +630,10 @@ li {
     display: block;
     position: relative;
     height: 100%;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
     z-index: 1;
 }
 
@@ -673,10 +679,10 @@ li {
 
 .single-service-area i {
     font-size: 40px;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transition-duration: 500ms;
@@ -727,10 +733,10 @@ li {
 .testimonilas-content span.quote {
     font-size: 120px;
     line-height: 1;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -820,7 +826,7 @@ li {
 }
 
 .blog-content > a:hover {
-    color: #61ba6d;
+    color: #4CA456;
 }
 
 /* Footer Area CSS */
@@ -868,10 +874,10 @@ li {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: -webkit-linear-gradient(left, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: #4CA456;
+    background: -webkit-linear-gradient(to right, #4CA456, #8FD974);
+    background: -webkit-linear-gradient(left, #4CA456, #8FD974);
+    background: linear-gradient(to right, #4CA456, #8FD974);
 }
 
 .footer-social-widegt {
@@ -887,7 +893,7 @@ li {
 }
 
 .footer-social-widegt > a:hover {
-    color: #61ba6d;
+    color: #4CA456;
 }
 
 .single-tweet a {
@@ -1180,6 +1186,6 @@ li {
 }
 
 .tags-widget > a:hover {
-    background-color: #61ba6d;
+    background-color: #4CA456;
     color: #fff;
 }
